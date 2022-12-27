@@ -1,0 +1,274 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B-02C cont_st
+02D-036 pwm_st
+037     angulo
+038     capacidad
+039-03D user
+03E     i
+03F-048 UID
+049     TagType
+04A-04B MFRC522_Compare_UID.l
+04A     @PSTRINGCN7_728.P1
+04A     MFRC522_Halt.unLen
+04A     MFRC522_AntennaOn.stt
+04A     lcd_init.i
+04A-04B MFRC522_Clear_UID.u_i
+04A-04B MFRC522_ReadCardSerial.str
+04A     @PRINTF_D_728.P1
+04A-04B MFRC522_isCard.TagType
+04A     servo_1_write.angle1
+04A     @PSTRINGC7_728.@SCRATCH1
+04A     secuencia_acceso.@SCRATCH1
+04A     MAIN.@SCRATCH1
+04B     @PRINTF_D_728.P1
+04B-04E MFRC522_Halt.buff
+04B     @PRINTF_X_728.P1
+04B-04C map_int.x
+04B     lcd_init.@SCRATCH1
+04B     @PSTRINGC7_728.@SCRATCH2
+04B     @PSTRINGCN7_728.@SCRATCH1
+04C     MFRC522_Clear_UID.j
+04C     MFRC522_ReadCardSerial._status
+04C     MFRC522_Request.reqMode
+04C     @PRINTF_X_728.P1
+04C-04D MFRC522_Compare_UID.u
+04C     MFRC522_isCard.@SCRATCH1
+04C     @PSTRINGC7_728.@SCRATCH3
+04C     @PSTRINGCN7_728.@SCRATCH2
+04C     @PRINTF_D_728.@SCRATCH1
+04D-04E MFRC522_Request.TagType
+04D-04E map_int.eMin
+04D-04E MFRC522_AntiColl.serNum
+04D     MFRC522_ReadCardSerial.@SCRATCH1
+04D     MFRC522_Clear_UID.@SCRATCH1
+04D     @PSTRINGC7_728.@SCRATCH4
+04D     @PSTRINGCN7_728.@SCRATCH3
+04D     @PRINTF_D_728.@SCRATCH2
+04E     MFRC522_ReadCardSerial.@SCRATCH2
+04E     MFRC522_Compare_UID.@SCRATCH1
+04E     MFRC522_Clear_UID.@SCRATCH2
+04E     @PSTRINGCN7_728.@SCRATCH4
+04E     @PRINTF_D_728.@SCRATCH3
+04F     MFRC522_AntiColl._status
+04F-050 MFRC522_CRC.dataIn
+04F-050 map_int.eMax
+04F     MFRC522_Request._status
+04F     @PRINTF_D_728.@SCRATCH4
+050     @DIV88.P1
+050     MFRC522_Request.backBits
+050     MFRC522_AntiColl.i
+050     lcd_putc.c
+051-052 map_int.sMin
+051     @DIV88.P1
+051     @delay_ms1.P2
+051     MFRC522_AntiColl.serNumCheck
+051     lcd_gotoxy.x
+051     MFRC522_CRC.length
+051     MFRC522_Request.@SCRATCH1
+052     MFRC522_AntiColl.unLen
+052     lcd_gotoxy.y
+052-053 MFRC522_CRC.dataOut
+052     MFRC522_Request.@SCRATCH2
+052     @DIV88.@SCRATCH1
+053     lcd_gotoxy.address
+053     MFRC522_ToCard.command
+053-054 map_int.sMax
+053     MFRC522_AntiColl.@SCRATCH1
+054-055 MFRC522_ToCard.sendData
+054     MFRC522_CRC.i
+054     MFRC522_AntiColl.@SCRATCH2
+054     lcd_gotoxy.@SCRATCH1
+055     lcd_send_byte.address
+055     MFRC522_CRC.n
+055     map_int.@SCRATCH1
+056     lcd_send_byte.n
+056     MFRC522_ToCard.sendLen
+056     map_int.@SCRATCH2
+056     MFRC522_CRC.@SCRATCH1
+057-058 MFRC522_ToCard.backData
+057     map_int.@SCRATCH3
+057     MFRC522_CRC.@SCRATCH2
+057     lcd_send_byte.@SCRATCH1
+058     lcd_send_nibble.nibble
+058     map_int.@SCRATCH4
+059-05A @MUL1616.P1
+059-05A MFRC522_ToCard.backLen
+059-05A @DIV1616.P1
+05B-05C @MUL1616.P1
+05B-05C @DIV1616.P2
+05B     MFRC522_ToCard._status
+05C     MFRC522_ToCard.irqEn
+05D     MFRC522_ToCard.waitIRq
+05D     @MUL1616.@SCRATCH1
+05D     @DIV1616.@SCRATCH1
+05E     MFRC522_ToCard.lastBits
+05F     MFRC522_ToCard.n
+060     MFRC522_ToCard.i
+061     MFRC522_Clear_Bit.addr
+061     MFRC522_Set_Bit.addr
+061     MFRC522_ToCard.@SCRATCH1
+062     MFRC522_Set_Bit.mask
+062     MFRC522_Clear_Bit.mask
+062     MFRC522_ToCard.@SCRATCH2
+063     MFRC522_Set_Bit.tmp
+063     MFRC522_Clear_Bit.tmp
+063     MFRC522_ToCard.@SCRATCH3
+064     MFRC522_Rd.address
+064     MFRC522_Clear_Bit.@SCRATCH1
+064     MFRC522_Set_Bit.@SCRATCH1
+065     MFRC522_Wr.address
+065     MFRC522_Rd.i
+066     MFRC522_Rd.ucAddr
+066     MFRC522_Wr.value
+067     MFRC522_Wr.i
+067     MFRC522_Rd.ucResult
+068     MFRC522_Wr.ucAddr
+068     MFRC522_Rd.@SCRATCH1
+069     MFRC522_Wr.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+09C.6   C1OUT
+09C.7   C2OUT
+0FF     @INTERRUPT_AREA
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+00004F  LCD_INIT_STRING.call
+000053  LCD_INIT_STRING.data
+000057  timer_0
+00008C  @const734.call
+00008D  @const760.call
+000094  @const761.call
+00009D  @const770.call
+0000A0  @const775.call
+0000A9  @const776.call
+0000AD  @const777.call
+0000B5  @const778.call
+0000BD  @delay_ms1
+0000D1  lcd_send_nibble
+0000FF  lcd_send_byte
+000126  lcd_init
+000155  MFRC522_Wr
+0001A2  MFRC522_Rd
+0001EF  MFRC522_Clear_Bit
+0001FF  MFRC522_Set_Bit
+00020E  MFRC522_Init
+000215  MFRC522_Reset
+000250  MFRC522_AntennaOff
+000255  MFRC522_AntennaOn
+000262  servo_init
+000270  lcd_gotoxy
+000282  lcd_putc
+0002A6  @PSTRINGC7_728
+0002FC  @PSTRINGCN7_728
+000355  @DIV88
+00036A  @PRINTF_D_728
+0003C3  MFRC522_ToCard
+00049D  MFRC522_isCard
+0004A3  MFRC522_Request
+0004D8  MFRC522_ReadCardSerial
+0004DC  MFRC522_AntiColl
+00053B  lcd_clear
+000543  @PRINTF_X_728
+000566  MFRC522_Compare_UID
+0005C7  servo_1_write
+0005D5  map_int
+0005F3  @MUL1616
+000620  @DIV1616
+000656  secuencia_acceso
+000675  MFRC522_Clear_UID
+000686  MFRC522_Halt
+000691  MFRC522_CRC
+000800  @cinit1
+000800  MAIN
+000810  @cinit2
+
+Project Directory:
+    C:\Users\aldof\Desktop\Sistemas Embebidos - Proyecto ABET\Lector Tarjetas RFID\RFID Acceso\
+
+Project Files:
+    RFID Acceso.c                                           [07-Dec-22 04:05  CRC=16FCED71]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f877a.h [18-Apr-14 16:56  CRC=4F277C97]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\servo_st.c [22-Aug-21 11:38  CRC=757AE1EB]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\RC522.h [08-Feb-20 17:43  CRC=B814AF39]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\LCD_16X2.c [19-Jun-20 20:32  CRC=F406DE8D]
+
+Source signature=7BC1B846
+
+Units:
+    RFID Acceso (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   RFID Acceso.xsym
+    Errors:      RFID Acceso.err
+    Ext Symbols: RFID Acceso.esym
+    INHX8:       RFID Acceso.hex
+    Symbols:     RFID Acceso.sym
+    List:        RFID Acceso.lst
+    Debug/COFF:  RFID Acceso.cof
+    Project:     RFID Acceso.ccspjt
+    Call Tree:   RFID Acceso.tre
+    Statistics:  RFID Acceso.STA

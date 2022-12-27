@@ -1,0 +1,181 @@
+[PROJECT]
+Target=RFID Acceso.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.025
+Compiler=PCM
+Development_Mode=
+ToolSuite=CCS
+[Target Data]
+FileList=RFID Acceso.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+[Directories]
+Include=<default>
+Library=
+LinkerScript=
+output=
+[RFID Acceso.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=RFID Acceso.c
+[Opened Files]
+1=RFID Acceso.c
+2=..\..\..\..\Downloads\Video 26 - Sensor Ultrasonico HCSR-04\HCSR-04 Sensor\Sensor Ultrasonico\Sensor Ultrasonico.c
+3=..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f877a.h
+4=..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\LCD_16X2.c
+5=..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\HCSR04.c
+6=..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\servo_st.c
+7=..\..\Control_Salida\ContSal.c
+8=
+
+[ProjectLog]
+Days=6
+D1=03-12-2022
+D1_L=18
+D1_L1=[42342]Project Opened.
+D1_L2=[42355]Project Closed.
+D1_L3=[42355]Project Opened.
+D1_L4=[42384]Started Editing.
+D1_L5=[42687]Stopped Editing.
+D1_L6=[44609]Started Editing.
+D1_L7=[45188]Stopped Editing.
+D1_L8=[45441]Started Editing.
+D1_L9=[45759]Stopped Editing.
+D1_L10=[46360]Started Editing.
+D1_L11=[46697]Stopped Editing.
+D1_L12=[48815]Started Editing.
+D1_L13=[49155]Stopped Editing.
+D1_L14=[50069]Started Editing.
+D1_L15=[50453]Stopped Editing.
+D1_L16=[51495]Started Editing.
+D1_L17=[52024]Stopped Editing.
+D1_L18=[65535]Project Closed.
+D2=04-12-2022
+D2_L=2
+D2_L1=[81329]Project Opened.
+D2_L2=[84296]Project Closed.
+D3=05-12-2022
+D3_L=26
+D3_L1=[42268]Project Opened.
+D3_L2=[42341]Started Editing.
+D3_L3=[42930]Stopped Editing.
+D3_L4=[44915]Started Editing.
+D3_L5=[45541]Stopped Editing.
+D3_L6=[46007]Started Editing.
+D3_L7=[50425]Stopped Editing.
+D3_L8=[50434]Started Editing.
+D3_L9=[50760]Stopped Editing.
+D3_L10=[51235]Started Editing.
+D3_L11=[52150]Stopped Editing.
+D3_L12=[52189]Started Editing.
+D3_L13=[52509]Stopped Editing.
+D3_L14=[54332]Started Editing.
+D3_L15=[54636]Stopped Editing.
+D3_L16=[55209]Started Editing.
+D3_L17=[55510]Stopped Editing.
+D3_L18=[56537]Started Editing.
+D3_L19=[57419]Stopped Editing.
+D3_L20=[57511]Started Editing.
+D3_L21=[58056]Stopped Editing.
+D3_L22=[58366]Started Editing.
+D3_L23=[58926]Stopped Editing.
+D3_L24=[59894]Started Editing.
+D3_L25=[60272]Stopped Editing.
+TotalEdit=157
+TotalDebug=0
+D3_E=110
+D3_D=0
+D3_L26=[62072]Project Closed.
+D4=06-12-2022
+D4_L=39
+D4_L1=[35936]Project Opened.
+D4_L2=[36096]Project Closed.
+D4_L3=[41160]Project Opened.
+D4_L4=[41393]Started Editing.
+D4_L5=[42334]Stopped Editing.
+D4_E=38
+D4_D=0
+D4_L6=[51707]Project Closed.
+D4_L7=[52823]Project Opened.
+D4_L8=[52912]Started Editing.
+D4_L9=[53705]Stopped Editing.
+D4_L10=[54593]Project Closed.
+D4_L11=[55308]Project Opened.
+D4_L12=[55403]Started Editing.
+D4_L13=[55423]Stopped Editing.
+D4_L14=[55426]Project Closed.
+D4_L15=[55426]Project Opened.
+D4_L16=[55430]Project Closed.
+D4_L17=[55952]Project Opened.
+D4_L18=[55987]Project Closed.
+D4_L19=[56881]Project Opened.
+D4_L20=[58679]Project Closed.
+D4_L21=[59634]Project Opened.
+D4_L22=[59728]Project Closed.
+D4_L23=[60731]Project Opened.
+D4_L24=[60953]Started Editing.
+D4_L25=[61253]Stopped Editing.
+D4_L26=[61533]Started Editing.
+D4_L27=[62201]Project Closed.
+D4_L28=[63370]Project Opened.
+D4_L29=[63634]Started Editing.
+D4_L30=[64072]Stopped Editing.
+D4_L31=[64333]Started Editing.
+D4_L32=[65072]Stopped Editing.
+D4_L33=[66065]Started Editing.
+D4_L34=[66370]Stopped Editing.
+D4_L35=[67056]Project Closed.
+D4_L36=[70353]Project Opened.
+D4_L37=[71854]Started Editing.
+D4_L38=[72256]Stopped Editing.
+D4_L39=[72256]Project Closed.
+D5=07-12-2022
+D5_L=6
+D5_L1=[13559]Project Opened.
+D5_L2=[13845]Started Editing.
+D5_L3=[14159]Stopped Editing.
+D5_L4=[14382]Started Editing.
+D5_L5=[14892]Stopped Editing.
+D5_E=9
+D5_D=0
+D5_L6=[14893]Project Closed.
+D6=27-12-2022
+D6_L=1
+D6_L1=[66631]Project Opened.
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+[CompilerVersion]
+Fixed=
+[Units]
+Count=1
+1=RFID Acceso (main)

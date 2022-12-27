@@ -1,0 +1,96 @@
+
+ROM used:   2148/8192 (26%)
+            2398/8192 (29%) including unused fragments
+
+            1.3 Average locations per line
+            6.1 Average locations per statement
+
+RAM used:   48/368 (13%) at main() level
+            79/368 (21%) worst case
+
+Stack used: 7 worst case (6 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  139    73  21  RFID Acceso.c
+  672     0   0  ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f877a.h
+  146    21   6  ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\servo_st.c
+  446   187  53  ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\RC522.h
+  263    72  20  ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\LCD_16X2.c
+----- -----
+ 1666   353 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     20   1    1             @delay_ms1
+0     53   2    0    277  4.2  timer_0
+0     14   1    0     78  1.6  servo_init
+ Inline        14    156  5.1  map_int
+ Inline         5             @MUL1616
+ Inline         5             @DIV1616
+0    143   7    1     85  2.3  servo_1_write
+0     77   4    5    840  7.7  MFRC522_Rd
+0     77   4    5    808  6.2  MFRC522_Wr
+0     16   1    4    127  3.3  MFRC522_Clear_Bit
+0     15   1    4    120  2.8  MFRC522_Set_Bit
+ Inline         0    197  1.8  MFRC522_Reset
+ Inline         1     72  2.0  MFRC522_AntennaOn
+ Inline         0     25  1.2  MFRC522_AntennaOff
+0     84   4    0    298  1.9  MFRC522_Init
+0    218  10   17   2288 15.8  MFRC522_ToCard
+ Inline         7    319  6.0  MFRC522_Request
+ Inline         9    568  8.2  MFRC522_CRC
+0    128   6    5    302  3.3  MFRC522_Halt
+ Inline         8    581  8.2  MFRC522_AntiColl
+0     59   3    3     89  3.6  MFRC522_isCard
+0     99   5    5    149  4.7  MFRC522_ReadCardSerial
+0     97   5    5    310  5.3  MFRC522_Compare_UID
+0     17   1    4    115  3.3  MFRC522_Clear_UID
+0      8   0    0             @const714
+0     46   2    1    326  2.8  lcd_send_nibble
+0     39   2    3    235  3.8  lcd_send_byte
+0     47   2    2    380  4.7  lcd_init
+0     18   1    4    186  5.5  lcd_gotoxy
+0     36   2    1    272  4.1  lcd_putc
+0      8   0    0     17  0.8  lcd_clear
+0      1   0    0             @const734
+0     86   4    4             @PSTRINGC7_728
+0     31   1    1    106  1.3  secuencia_acceso
+1    350  16    1   1781  7.3  MAIN
+0      7   0    0             @const760
+0      9   0    0             @const761
+0     89   4    5             @PSTRINGCN7_728
+0     21   1    3             @DIV88
+0     89   4    6             @PRINTF_D_728
+0      3   0    0             @const770
+0     35   2    2             @PRINTF_X_728
+0      9   0    0             @const775
+0      4   0    0             @const776
+0      8   0    0             @const777
+0      8   0    0             @const778
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               29
+    Statements              353
+    Comments                191
+    Volume (V)              19355
+    Difficulty (D)          128.6
+    Effort to implement (E) 2488430
+    Time to implement (T)   38 hours, 24 minutes
+    Est Delivered Bugs (B)  6
+    Cyclomatic Complexity   44
+    Maintainability (MI)    59
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0004E    75  0  
+0004F-007FF  1719  250  
+00800-00FFF   350  1698  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
